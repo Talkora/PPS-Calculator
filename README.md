@@ -5,11 +5,11 @@ A drag and drop rotation calculator that allows you to input your rotation and s
 To install, simply clone the repo to your computer and using Node.js in the home directory, do the following commands:
 ```
 npm install
-npm run build
+npm start
 ```
-Then simply open the index.html file located in the public folder to access the site!
+Then simply navigate to localhost:1337 to access the site!
 
-Please submit issues here: [https://github.com/Hackbit/reactriot2017-talkora/issues](https://github.com/Hackbit/reactriot2017-talkora/issues)
+Please submit issues here: [https://github.com/Talkora/PPS-Calculator/issues](https://github.com/Talkora/PPS-Calculator/issues)
 
 This is a work in progress and will not be perfect for quite some time!
 

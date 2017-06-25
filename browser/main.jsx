@@ -13,9 +13,10 @@ import JobContainer from './containers/JobContainer.jsx';
 render(
   <Provider store={store}>
     <Router>
-      <App>
-        <Route path="/samurai" component={JobContainer} />
-      </App>
+      <div>
+        <Route path="/" component={App} />
+        <Route path="/:job" component={JobContainer} />
+      </div>
     </Router>
   </Provider>,
   document.getElementById('page-content')

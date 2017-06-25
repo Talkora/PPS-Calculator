@@ -9,6 +9,9 @@ export default function (props) {
         <div><strong>Samurai</strong></div>
         <Link to="/samurai"><img src="img/JobIcons/SAM.png"/></Link>
       </div>
+      {
+        props.children && React.cloneElement(props.children, props)
+      }
     </div>
   );
 }
