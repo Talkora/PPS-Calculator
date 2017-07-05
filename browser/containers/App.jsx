@@ -7,7 +7,7 @@ import Home from '../components/Home.jsx';
 
 function AppContainer (props) {
   return (
-    <div id="main" className="container" style={styles}>
+    <div id="title" className="container" style={styles}>
       <TitleBar />
       <Home />
     </div>

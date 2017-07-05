@@ -13,8 +13,8 @@ import JobContainer from './containers/JobContainer.jsx';
 render(
   <Provider store={store}>
     <Router>
-      <div>
-        <Route path="/" component={App} />
+      <div id="body">
+        <App />
         <Route path="/:job" component={JobContainer} />
       </div>
     </Router>

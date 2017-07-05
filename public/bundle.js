@@ -12309,8 +12309,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
     null,
     _react2.default.createElement(
       'div',
-      null,
-      _react2.default.createElement(_reactRouterDom.Route, { path: '/', component: _App2.default }),
+      { id: 'body' },
+      _react2.default.createElement(_App2.default, null),
       _react2.default.createElement(_reactRouterDom.Route, { path: '/:job', component: _JobContainer2.default })
     )
   )
@@ -27968,7 +27968,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function AppContainer(props) {
   return _react2.default.createElement(
     'div',
-    { id: 'main', className: 'container', style: _App2.default },
+    { id: 'title', className: 'container', style: _App2.default },
     _react2.default.createElement(_TitleBar2.default, null),
     _react2.default.createElement(_Home2.default, null)
   );
