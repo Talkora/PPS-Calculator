@@ -21,6 +21,7 @@
     "babel-preset-react": "^6.24.1",
     "express": "^4.15.3",
     "history": "^4.6.3",
+    "materialize-css": "^0.99.0",
     "nodemon": "^1.11.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",

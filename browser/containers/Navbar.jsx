@@ -1,15 +1,14 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import styles from "../styles/App.jsx";
 
-import TitleBar from "../components/TitleBar.jsx";
-import Home from '../components/Home.jsx';
+import TitleName from "../components/TitleName.jsx";
+import JobBar from '../containers/JobBar.jsx';
 
 function AppContainer (props) {
   return (
-    <div id="title" className="container" style={styles}>
-      <TitleBar />
-      <Home />
+    <div id="navbar" className="section">
+      <TitleName />
+      <JobBar />
     </div>
   );
 }

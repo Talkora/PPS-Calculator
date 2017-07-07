@@ -1,0 +1,23 @@
+body {
+  background-color: #ebebeb;
+  position: relative;
+  margin: 0;
+  width: 100%;
+  color: #131313;
+}
+
+#navbar {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: #131313;
+  color: #cccccc;
+}
+
+#titlename {
+  text-decoration: none;
+  font-size: 30pt;
+  font-family: Times;
+  cursor: auto;
+  color: #cccccc;
+}
