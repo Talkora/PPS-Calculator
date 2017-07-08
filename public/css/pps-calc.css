@@ -21,3 +21,15 @@ body {
   cursor: auto;
   color: #cccccc;
 }
+
+.btn {
+  background-color: #131313;
+}
+
+.btn:hover {
+  background-color: #242424;
+}
+
+.dropdown-content li>a.Melee, .dropdown-content li>a.Ranged, .dropdown-content li>a.Magic {
+  color: rgb(112, 51, 52);
+}

@@ -12310,7 +12310,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
       null,
       _react2.default.createElement(
         'header',
-        null,
+        { className: 'z-depth-5' },
         _react2.default.createElement(_Navbar2.default, null)
       ),
       _react2.default.createElement(
@@ -28099,7 +28099,7 @@ exports.default = function (props) {
         _react2.default.createElement('img', { className: 'left', src: '/img/JobIcons/' + classinfo.shortname + '.png' }),
         _react2.default.createElement(
           _reactRouterDom.Link,
-          { to: '/' + classinfo.fullname },
+          { to: '/' + classinfo.fullname, className: '' + props.classtype },
           classinfo.fullname
         )
       );

@@ -12,7 +12,7 @@ render(
   <Provider store={store}>
     <Router>
       <div>
-        <header>
+        <header className="z-depth-5">
           <Navbar />
         </header>
         <main>
