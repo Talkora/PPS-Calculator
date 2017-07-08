@@ -13,5 +13,3 @@ export default (props) => {
     </Dropdown>
   );
 }
-
-// <img className="right" height="32" width="32" src={`/img/JobIcons/${classinfo.shortname}.png`} />
