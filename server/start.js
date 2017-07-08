@@ -13,6 +13,9 @@ app.use(express.static(resolve(__dirname, '..', 'public')))
 // Serve up Materialize files
 app.use('/materialize', express.static(resolve(__dirname, '..', 'node_modules/materialize-css/dist')))
 
+// Serve up JQuery files
+app.use('/jquery', express.static(resolve(__dirname, '..', 'node_modules/jquery/dist')))
+
 // Serve up index.html on request
 app.get('/*', (req, res) => {
   res.sendFile(resolve(__dirname, '../public/index.html'));

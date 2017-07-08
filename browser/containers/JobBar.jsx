@@ -15,11 +15,3 @@ export default function (props) {
     </div>
   );
 }
-
-
-
-// <span>Choose a class:</span>
-// <div>
-//   <div><strong>Samurai</strong></div>
-//   <Link to="/samurai"><img src="img/JobIcons/SAM.png"/></Link>
-// </div>

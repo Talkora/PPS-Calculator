@@ -1,1 +1,1 @@
-export default ["Samurai"]
+export default [{fullname: "Samurai", shortname: "SAM"}]

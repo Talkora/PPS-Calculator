@@ -1,16 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Dropdown, Button } from 'react-materialize';
 
 export default (props) => {
-  console.log(props.classes);
-  const dropdownitems = props.classes.map(classname =>
-    <li>{classname}</li>
-  );
-  console.log(dropdownitems);
   return (
-    <div id={`${props.classtype}-dropdown`}>
-      <a className='dropdown-button btn' href='#' data-hover="true" data-activates={`${props.classtype}-dropdown`}>{props.classtype} Classes</a>
-      <ul id={`${props.classtype}-dropdown`} className='dropdown-content'>{dropdownitems}</ul>
-    </div>
+    <Dropdown trigger={
+        <Button data-hover="true">{props.classtype} Classes</Button>
+      } className="select-dropdown">
+      {props.classes.map(classinfo =>
+        <li key={classinfo.shortname}><img className="left" src={`/img/JobIcons/${classinfo.shortname}.png`} /><Link to={`/${classinfo.fullname}`}>{classinfo.fullname}</Link></li>
+      )}
+    </Dropdown>
   );
 }
+
+// <img className="right" height="32" width="32" src={`/img/JobIcons/${classinfo.shortname}.png`} />
