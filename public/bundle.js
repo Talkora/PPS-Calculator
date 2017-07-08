@@ -28996,6 +28996,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = [{ fullname: "Samurai", shortname: "SAM" }];
 
+// {fullname: "Dragoon", shortname: "DRG"}, {fullname: "Monk", shortname: "MNK"}, {fullname: "Ninja", shortname: "NIN"},
+
 /***/ }),
 /* 281 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -29007,6 +29009,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = [];
+
+// {fullname: "Bard", shortname: "BRD"}, {fullname: "Machinist", shortname: "MCH"}
 
 /***/ }),
 /* 282 */
@@ -33322,6 +33326,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = [];
 
+// {fullname: "Black Mage", shortname: "BLM"}, {fullname: "Red Mage", shortname: "RDM"}, {fullname: "Summoner", shortname: "SMN"}
+
 /***/ }),
 /* 322 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -33334,6 +33340,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = [];
 
+// {fullname: "Dark Knight", shortname: "DRK"}, {fullname: "Paladin", shortname: "PLD"}, {fullname: "Warrior", shortname: "WAR"}
+
 /***/ }),
 /* 323 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -33345,6 +33353,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = [];
+
+// {fullname: "Astrologian", shortname: "AST"}, {fullname: "Scholar", shortname: "SCH"}, {fullname: "White Mage", shortname: "WHM"}
 
 /***/ })
 /******/ ]);

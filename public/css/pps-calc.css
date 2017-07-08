@@ -33,3 +33,11 @@ body {
 .dropdown-content li>a.Melee, .dropdown-content li>a.Ranged, .dropdown-content li>a.Magic {
   color: rgb(112, 51, 52);
 }
+
+.dropdown-content li>a.Healer {
+  color: #457637;
+}
+
+.dropdown-content li>a.Tank {
+  color: #3f53b7;
+}
