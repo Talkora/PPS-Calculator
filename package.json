@@ -20,6 +20,7 @@
     "babel-preset-env": "^1.5.2",
     "babel-preset-react": "^6.24.1",
     "express": "^4.15.3",
+    "font-awesome": "^4.7.0",
     "history": "^4.6.3",
     "jquery": "^3.2.1",
     "materialize-css": "^0.99.0",

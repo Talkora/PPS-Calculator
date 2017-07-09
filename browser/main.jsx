@@ -7,6 +7,7 @@ import store from './store.jsx';
 
 import Navbar from './containers/Navbar.jsx';
 import JobContainer from './containers/JobContainer.jsx';
+import Footer from './components/Footer.jsx';
 
 render(
   <Provider store={store}>
@@ -18,6 +19,9 @@ render(
         <main>
           <Route path="/:job" component={JobContainer} />
         </main>
+        <footer className="z-depth-5">
+          <Footer />
+        </footer>
       </div>
     </Router>
   </Provider>,
