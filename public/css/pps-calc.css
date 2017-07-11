@@ -1,0 +1,52 @@
+body {
+  background-color: #ebebeb;
+  position: relative;
+  margin: 0;
+  width: 100%;
+  color: #131313;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+#navbar, #footer {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: #131313;
+  color: #cccccc;
+}
+
+.container a {
+  text-decoration: none;
+  font-family: Times;
+  cursor: auto;
+  color: #cccccc;
+}
+#titlename {
+  font-size: 30px;
+}
+
+.btn {
+  background-color: #131313;
+}
+
+.btn:hover {
+  background-color: #242424;
+}
+
+.dropdown-content li>a.Melee, .dropdown-content li>a.Ranged, .dropdown-content li>a.Magic {
+  color: rgb(112, 51, 52);
+}
+
+.dropdown-content li>a.Healer {
+  color: #457637;
+}
+
+.dropdown-content li>a.Tank {
+  color: #3f53b7;
+}

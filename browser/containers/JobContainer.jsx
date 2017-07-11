@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 function JobContainer (props) {
   return (
     <div id="jobContainer" className="container">
-      <h1>Welcome to the Job Page</h1>
+      <h1>Welcome to the {props.match.params.job} Page</h1>
     </div>
   );
 }
